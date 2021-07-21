@@ -13,12 +13,6 @@ Clone o repositório.
 git clone https://github.com/rocketseat-experts-club/chat-liveview-11-07-2021
 ```
 
-`cd` no diretório.
-
-```
-cd events
-```
-
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
