@@ -1,0 +1,8 @@
+<section class="phx-hero">
+  <h1><%= gettext "Welcome to %{name}!", name: "Expert Club Messenger" %></h1>
+</section>
+
+<%= if @current_user do %>
+  <%= live_render(@conn, EcMessegeWeb.DashboardLive, 
+            session: %{"current_user" => @current_user}) %>
+<% end%>
